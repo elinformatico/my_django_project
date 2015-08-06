@@ -30,3 +30,16 @@ python manage.py createsuperuser
 
 python manage.py runserver
 
+workon fifa
+
+API Documentation
+http://www.django-rest-framework.org/api-guide/settings/
+
+
+Python SHELL
+from soccer.models import Player, Team
+
+
+Execute Queries:
+https://docs.djangoproject.com/en/1.8/topics/db/queries/
+
