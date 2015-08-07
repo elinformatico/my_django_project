@@ -1,7 +1,7 @@
 from rest_framework import viewsets
 
-from .serializers import PlayerSerializer, TeamSerializer
-from .models import Player, Team
+from .serializers import PlayerSerializer, TeamSerializer, CoachSerializer
+from .models import Player, Team, Coach
 
 
 class PlayerViewSet(viewsets.ModelViewSet):
